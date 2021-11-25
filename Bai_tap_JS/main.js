@@ -21,6 +21,9 @@ numberRandom.sort(function(a, b) {
     return(a - b);
 })
 
+// const soDuong = numberRandom.filter(numberRandom => numberRandom % 2 == 0);
+// const soDuong = numberRandom.filter(numberRandom => numberRandom % 2 !== 0);
+
 const soDuong = numberRandom.filter(function(numberRandom) {
     return(numberRandom % 2 == 0 );
 });
